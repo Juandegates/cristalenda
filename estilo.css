@@ -1,0 +1,14 @@
+:root { --fondo:#120a24; --panel:#1d1238; --borde:#5b3f99; --oro:#f2c95c; --tinta:#efe9ff; --tenue:#b9b0d6; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--fondo) radial-gradient(circle at 50% -10%, #3a1f6e 0, transparent 60%) no-repeat; color:var(--tinta);
+  font:16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+h1 { color:var(--oro); font-size:30px; margin:0 0 4px; letter-spacing:.5px; }
+h2 { color:var(--oro); font-size:20px; margin:32px 0 8px; border-top:1px solid #34245c; padding-top:20px; }
+p, li { color:var(--tinta); }
+.tenue { color:var(--tenue); font-size:14px; }
+.caja { background:var(--panel); border:1px solid var(--borde); border-radius:10px; padding:16px; }
+a { color:var(--oro); }
+nav { margin:28px 0 0; display:flex; gap:12px; flex-wrap:wrap; }
+nav a { display:inline-block; padding:10px 16px; border:1px solid var(--borde); border-radius:999px; background:var(--panel); text-decoration:none; }
+code { background:#2a1b4d; padding:1px 6px; border-radius:4px; }
